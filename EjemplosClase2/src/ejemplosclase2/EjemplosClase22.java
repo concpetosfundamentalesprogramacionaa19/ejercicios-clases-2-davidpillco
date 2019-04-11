@@ -36,10 +36,13 @@ public class EjemplosClase22 {
         entrada.nextLine(); //limpieza de buffer de entrada de datos
         System.out.println("Por favor ingrese la ciudad");
         ciudad = entrada.nextLine();
-        
+        /**
         System.out.print("Su nombre es: "+nombre+"\n"+"\n"
                 + "\t"+"Su apellido es: "+apellido+ ", edad: " +edad +"\n"
         +"Ciudad: " + ciudad);
+        */
+        System.out.printf("Su nombres es %s\n\t Su apellido es %s\n\t Su edad es: %s\n\t Su ciudad es:%s" , nombre,
+                apellido, edad, ciudad);
     }
     
 }
